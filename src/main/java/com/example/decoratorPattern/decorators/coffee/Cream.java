@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 public class Cream extends CoffeeDecorator{
     private final int price = 30;
-    private final String desc = "I am cream decorated coffee";
+    private final String desc = "I am cream decorator";
 
     public Cream(Coffee coffee) {
         super(coffee, CoffeeAddons.CREAM);
