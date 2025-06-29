@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 public class Milk extends CoffeeDecorator{
     private final int price = 50;
-    private final String desc = "I am milk decorated coffee";
+    private final String desc = "I am milk decorator";
 
     public Milk(Coffee coffee) {
         super(coffee, CoffeeAddons.MILK);

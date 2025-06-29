@@ -5,7 +5,7 @@ import com.example.decoratorPattern.products.coffee.Coffee;
 
 public class Sugar extends CoffeeDecorator {
     private final int price = 10;
-    private final String desc = "I am sugar decorated coffee";
+    private final String desc = "I am sugar decorator";
 
     public Sugar(Coffee coffee) {
         super(coffee, CoffeeAddons.SUGAR);

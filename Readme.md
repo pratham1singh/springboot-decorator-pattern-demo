@@ -70,8 +70,8 @@ This project demonstrates the **Decorator Design Pattern** using a simple coffee
 
 **1. Clone the repository**
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone git@github.com:pratham1singh/springboot-decorator-pattern-demo.git
+cd springboot-decorator-pattern-demo
 ```
 
 **2.Run the Spring Boot Application**
